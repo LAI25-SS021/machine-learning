@@ -7,7 +7,7 @@ import sys
 model = tf.keras.models.load_model("models/best_model.keras")
 
 # Label klasifikasi kulit wajah
-labels = ["Berminyak", "Normal", "Kering"]
+labels = ["Berminyak", "Kering", "Normal"]
 
 
 # Fungsi preprocessing gambar
