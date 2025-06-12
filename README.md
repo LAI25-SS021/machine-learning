@@ -65,6 +65,23 @@ Dataset tersebut telah diunduh dan disimpan di Google Drive. Link akses dataset 
 - History training disimpan dalam file `.json`.
 - Notebook menghasilkan visualisasi distribusi data, training curves, confusion matrix, dan classification report.
 
+## Cara Menjalankan Inference.py
+
+- Pastikan Anda sudah menginstal dependensi:`
+
+```
+import tensorflow as tf
+import numpy as np
+import cv2
+import sys
+```
+
+- Jalankan melalui terminal/command prompt:
+
+```
+python inference.py path/to/your/image.jpg
+```
+
 ## Catatan
 
 - Notebook ini dioptimalkan untuk dijalankan di Google Colab.
